@@ -1,6 +1,6 @@
-package com.mj.book.web;
+package com.mj.book.springboot.web;
 
-import com.mj.book.web.dto.HelloResponseDto;
+import com.mj.book.springboot.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +12,7 @@ public class HelloController {
         return "Hello";
     }
     @GetMapping("/hello/dto")
-    public HelloResponseDto helloDto(@RequestParam("name") String name,@RequestParam("amount")int amount){
+    public HelloResponseDto helloDto(@RequestParam("name") String name, @RequestParam("amount")int amount){
         return new HelloResponseDto(name,amount);
     }
 }
