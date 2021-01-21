@@ -1,8 +1,11 @@
 package com.mj.book.springboot.web.dto;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
-
+/*
+마법에 명령어
+rm -rf .idea
+ */
 public class HelloResponseDtoTest {
 
     @Test
