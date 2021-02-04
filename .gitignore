@@ -1,6 +1,6 @@
 HELP.md
-.gradle
-build/
+/.gradle/
+/build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -37,4 +37,5 @@ out/
 .vscode/
 src/test/java/com/mj/book/web/
 
-application-oauth.properties
+/src/mein/resources/application-oauth.properties
+
