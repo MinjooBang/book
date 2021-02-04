@@ -15,8 +15,9 @@ import javax.servlet.http.HttpSession;
 @RequiredArgsConstructor
 @Controller
 public class IndexController {
-
+    //수정사항
     private final PostsService postsService;
+
     private final HttpSession httpSession;
 
     @GetMapping("/")
