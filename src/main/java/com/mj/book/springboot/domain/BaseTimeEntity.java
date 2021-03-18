@@ -17,7 +17,7 @@ entity들의 createdDate,modifiedDate를 자동으로 관리하는 역활
 public class BaseTimeEntity{
 
     @CreatedDate
-    private LocalDateTime createdTime;
+    private LocalDateTime createdDate;
 
     @LastModifiedDate
     private LocalDateTime modifiedDate;
