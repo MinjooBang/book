@@ -38,4 +38,4 @@ out/
 src/test/java/com/mj/book/web/
 
 /src/main/resources/application-oauth.properties
-
+/src/main/resources/application-real-db.properties
