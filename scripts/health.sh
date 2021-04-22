@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo ">Health check"
+echo ">Health check !!!"
 ABSPATH=$(readlink -f $0)
 ABSDIR=$(dirname $ABSPATH)
 source ${ABSDIR}/profile.sh
