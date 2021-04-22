@@ -13,7 +13,7 @@ permissions:
 hooks:
   AfterInstall:
     - location: stop.sh
-      timeout: 60
+      timeout : 60
       runas: ec2-user
   ApplicationStart:
     - location: start.sh
@@ -23,4 +23,3 @@ hooks:
     - location: health.sh
       timeout: 60
       runas: ec2-user
-
